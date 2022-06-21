@@ -1,6 +1,8 @@
 # https://github.com/home-assistant/supervised-installer
 # https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh
+# https://github.com/home-assistant/os-agent
 # COMMAND EXEC
+# sudo bash installer.sh --machine raspberrypi4-64
 
 
 #!/usr/bin/env bash
