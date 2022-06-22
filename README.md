@@ -23,6 +23,7 @@ apt-get install \
 jq \
 wget \
 curl \
+apparmor-utils \
 udisks2 \
 libglib2.0-bin \
 network-manager \
