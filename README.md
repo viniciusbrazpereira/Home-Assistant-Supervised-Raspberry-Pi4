@@ -39,6 +39,13 @@ Step 3: Install the OS-Agent:
 
 Instructions for installing the OS-Agent can be found [here](https://github.com/home-assistant/os-agent/tree/main#using-home-assistant-supervised-on-debian)
 
+Step 4: Install the Home Assisistant Supervised Debian Package:
+```shell
+wget https://raw.githubusercontent.com/viniciusbrazpereira/Home-Assistant-Supervised-Raspberry-Pi4/main/installer.sh
+sudo chmod 755 installer.sh
+sudo bash installer.sh --machine raspberrypi4-64
+```
+
 ## Supported Machine types
 
 - generic-x86-64
@@ -62,9 +69,3 @@ Instructions for installing the OS-Agent can be found [here](https://github.com/
 
 If somethings going wrong, use `journalctl -f` to get your system logs. If you are not familiar with Linux and how you can fix issues, we recommend to use our Home Assistant OS.
 
-Step 4: Install the Home Assisistant Supervised Debian Package:
-```shell
-wget https://raw.githubusercontent.com/viniciusbrazpereira/Home-Assistant-Supervised-Raspberry-Pi4/main/installer.sh
-sudo chmod 755 installer.sh
-sudo bash installer.sh --machine raspberrypi4-64
-```
