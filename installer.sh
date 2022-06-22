@@ -41,7 +41,7 @@ FILE_NM_CONF="/etc/NetworkManager/NetworkManager.conf"
 FILE_NM_CONNECTION="/etc/NetworkManager/system-connections/default"
 
 #URL_RAW_BASE="https://raw.githubusercontent.com/home-assistant/supervised-installer/master/files"
-URL_RAW_BASE="https://github.com/viniciusbrazpereira/Home-Assistant-Supervised-Raspberry-Pi4"
+URL_RAW_BASE="https://raw.githubusercontent.com/viniciusbrazpereira/Home-Assistant-Supervised-Raspberry-Pi4/main/"
 URL_VERSION="https://version.home-assistant.io/stable.json"
 URL_BIN_APPARMOR="${URL_RAW_BASE}/hassio-apparmor"
 URL_BIN_HASSIO="${URL_RAW_BASE}/hassio-supervisor"
