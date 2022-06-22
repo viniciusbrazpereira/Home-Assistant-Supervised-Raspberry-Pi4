@@ -34,6 +34,8 @@ Step 2: Install Docker-CE with the following command:
 
 ```bash
 curl -fsSL get.docker.com | sh
+sudo chmod 666 /var/run/docker.sock
+sudo usermod -aG docker ${USER}
 ```
 
 Step 3: Install the OS-Agent:
