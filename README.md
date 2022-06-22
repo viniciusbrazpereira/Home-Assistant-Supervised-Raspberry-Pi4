@@ -39,13 +39,6 @@ Step 3: Install the OS-Agent:
 
 Instructions for installing the OS-Agent can be found [here](https://github.com/home-assistant/os-agent/tree/main#using-home-assistant-supervised-on-debian)
 
-Step 4: Install the Home Assisistant Supervised Debian Package:
-
-```bash
-wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
-dpkg -i homeassistant-supervised.deb
-```
-
 ## Supported Machine types
 
 - generic-x86-64
@@ -69,8 +62,7 @@ dpkg -i homeassistant-supervised.deb
 
 If somethings going wrong, use `journalctl -f` to get your system logs. If you are not familiar with Linux and how you can fix issues, we recommend to use our Home Assistant OS.
 
-
-# Executar os passos para instalar o Home-Assistant no Raspberry-Pi4
+Step 4: Install the Home Assisistant Supervised Debian Package:
 ```shell
 wget https://raw.githubusercontent.com/viniciusbrazpereira/Home-Assistant-Supervised-Raspberry-Pi4/main/installer.sh
 sudo chmod 755 installer.sh
