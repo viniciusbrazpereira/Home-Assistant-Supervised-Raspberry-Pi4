@@ -1,5 +1,17 @@
 # Home-Assistant-Supervised-Raspberry-Pi4
 
+Setting up the services
+As mentioned before, disable dhcpcd:
+
+```bash
+systemctl disable dhcpcd
+```
+
+Then, enable the networking service:
+
+```bash
+systemctl enable networking
+```
 # This installation method is for advanced users only
 
 ## Make sure you understand [the requirements](https://github.com/home-assistant/architecture/blob/master/adr/0014-home-assistant-supervised.md)
